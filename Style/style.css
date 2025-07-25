@@ -334,4 +334,230 @@ body {
 }
 
 
+@media (max-width: 768px) {
+    .banner {
+        height: auto;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    }
 
+    .nav {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .signup-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .banner-content {
+        padding: 0 10px;
+    }
+
+    .banner-content h1 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .focus-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .action-section {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .action-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .action-text h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .action-text p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .live-preview-btn {
+        background-color: #4f46e5;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 14px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+    .live-preview-btn:hover {
+        background-color: #3f3cc5;
+    }
+
+    .preview-btn {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .action-image img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .users-section {
+        padding: 30px 10px;
+        margin: 30px 10px;
+    }
+
+    .users-section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stats div {
+        margin: 0;
+    }
+
+    .stats h3 {
+        font-size: 48px;
+    }
+
+    .stats p {
+        font-size: 12px;
+    }
+
+    .review {
+        padding: 40px 10px;
+    }
+
+    .review-heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .review-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-card {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .stars img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .review-card h3 {
+        font-size: 14px;
+    }
+
+    .review-card p {
+        font-size: 12px;
+    }
+
+    .reviewer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .reviewer-info span {
+        font-size: 12px;
+    }
+
+    .reviewer-info small {
+        font-size: 10px;
+    }
+
+    .newsletter-section {
+        padding: 40px 10px;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .newsletter-text h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .newsletter-form {
+        max-width: 100%;
+    }
+
+    .newsletter-form label {
+        font-size: 12px;
+    }
+
+    .newsletter-form input,
+    .newsletter-form textarea {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .newsletter-form textarea {
+        min-height: 80px;
+    }
+
+    .newsletter-form button {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 30px 10px;
+    }
+
+    .footer-logo {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .footer-description {
+        font-size: 14px;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-nav a {
+        font-size: 12px;
+    }
+}
